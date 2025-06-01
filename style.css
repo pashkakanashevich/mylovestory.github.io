@@ -78,4 +78,14 @@
       .heart {
         font-size: 1.5rem;
       }
+
+      .gallery {
+        grid-template-columns: 1fr; /* одна колонка */
+      }
+
+      .gallery img {
+        height: 200px; /* чуть меньше высота */
+      }
     }
+
+  
