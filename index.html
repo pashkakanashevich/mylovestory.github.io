@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Для самой любимой 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #ffd1dc, #ffe6f0);
+      font-family: 'Great Vibes', cursive;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #d63384;
+    }
+
+    p {
+      font-size: 1.5em;
+      margin-top: 20px;
+    }
+
+    .heart {
+      font-size: 2em;
+      display: inline-block;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.3); color: red; }
+      100% { transform: scale(1); }
+    }
+
+    /* Галерея */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 50px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #c2185b;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Для моей прекрасной девушки 💖</h1>
+  <p>Ты — самое лучшее, что случилось в моей жизни.</p>
+  <p>Я люблю тебя всем сердцем <span class="heart">❤️</span></p>
+
+  <h2>Наши любимые моменты 📸</h2>
+  <div class="gallery">
+    <img src="фотой.jpg" alt="Фото 1">
+    <img src="фото6.jpg" alt="Фото 2">
+    <img src="фото3.jpg" alt="Фото 3">
+    <img src="фото4.jpg" alt="Фото 4">
+    <img src="фото5.jpg" alt="Фото 5">
+    <img src="фото7.jpg" alt="Фото 5">
+  </div>
+</body>
+</html>
